@@ -14,62 +14,61 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="versionUpdateButton">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>180</y>
-      <width>281</width>
-      <height>81</height>
+      <x>280</x>
+      <y>410</y>
+      <width>211</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>版本更新页</string>
+     <string>版本更新</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="lineupUpdateButton">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>290</y>
-      <width>281</width>
-      <height>81</height>
+      <x>280</x>
+      <y>310</y>
+      <width>211</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>当前状态页</string>
+     <string>阵容设置</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>400</y>
-      <width>281</width>
-      <height>81</height>
+      <x>280</x>
+      <y>220</y>
+      <width>211</width>
+      <height>61</height>
      </rect>
     </property>
-    <property name="text">
-     <string>阵容设置页</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>40</y>
-      <width>191</width>
-      <height>23</height>
-     </rect>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <bold>false</bold>
+     </font>
     </property>
     <property name="text">
-     <string>云顶之弈 - 猪脑过载小助手</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
+     <string>当前状态</string>
     </property>
    </widget>
   </widget>

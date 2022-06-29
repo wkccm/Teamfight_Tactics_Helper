@@ -1,7 +1,9 @@
-#ifndef MAINWINDOW_H
+﻿#ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "versionupdate.h"
+#include "lineupupdate.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -17,5 +19,11 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    VersionUpdate *v;
+    LineupUpdate *l;
+
+private slots:
+    void on_versionUpdateButton_clicked();
+    void on_lineupUpdateButton_clicked();
 };
 #endif // MAINWINDOW_H
