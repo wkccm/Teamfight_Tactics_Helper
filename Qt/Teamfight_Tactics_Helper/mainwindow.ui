@@ -52,7 +52,7 @@
      <string>阵容设置</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="currentStateButton">
     <property name="geometry">
      <rect>
       <x>280</x>

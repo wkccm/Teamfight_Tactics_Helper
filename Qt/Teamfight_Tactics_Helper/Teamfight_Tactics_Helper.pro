@@ -11,6 +11,7 @@ CONFIG += c++17
 
 SOURCES += \
     config.cpp \
+    lineuprecommand.cpp \
     lineupupdate.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -18,11 +19,13 @@ SOURCES += \
 
 HEADERS += \
     config.h \
+    lineuprecommand.h \
     lineupupdate.h \
     mainwindow.h \
     versionupdate.h
 
 FORMS += \
+    lineuprecommand.ui \
     lineupupdate.ui \
     mainwindow.ui \
     versionupdate.ui

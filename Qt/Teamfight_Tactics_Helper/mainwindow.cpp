@@ -27,3 +27,11 @@ void MainWindow::on_lineupUpdateButton_clicked()
     l->show();
 }
 
+
+void MainWindow::on_currentStateButton_clicked()
+{
+    this->hide();
+    r=new LineupRecommand;
+    r->show();
+}
+
