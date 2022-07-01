@@ -95,19 +95,19 @@ void LineupRecommand::updateFunc()
         double bowValue=bow==0?0:2*(1+(bow-1)*0.6);
 
         int tear=qMax(model->data(model->index(i,6)).toInt()-ui->tearEdit->text().toInt(),0);
-        double tearValue=tear==0?0:2*(1+(bow-1)*0.6);
+        double tearValue=tear==0?0:2*(1+(tear-1)*0.6);
 
         int gloves=qMax(model->data(model->index(i,7)).toInt()-ui->glovesEdit->text().toInt(),0);
-        double glovesValue=gloves==0?0:2*(1+(bow-1)*0.6);
+        double glovesValue=gloves==0?0:2*(1+(gloves-1)*0.6);
 
         int vest=qMax(model->data(model->index(i,8)).toInt()-ui->vestEdit->text().toInt(),0);
-        double vestValue=vest==0?0:1*(1+(bow-1)*0.6);
+        double vestValue=vest==0?0:1*(1+(vest-1)*0.6);
 
         int belt=qMax(model->data(model->index(i,9)).toInt()-ui->beltEdit->text().toInt(),0);
-        double beltValue=belt==0?0:1*(1+(bow-1)*0.6);
+        double beltValue=belt==0?0:1*(1+(belt-1)*0.6);
 
         int cloak=qMax(model->data(model->index(i,10)).toInt()-ui->cloakEdit->text().toInt(),0);
-        double cloakValue=cloak==0?0:1*(1+(bow-1)*0.6);
+        double cloakValue=cloak==0?0:1*(1+(cloak-1)*0.6);
 
         std::vector<std::pair<std::pair<int, double>,std::string>>v;
         v.push_back(std::make_pair(std::make_pair(shovel, shovelValue), "金铲铲"));
